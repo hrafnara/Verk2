@@ -4,8 +4,8 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-	return '<h1>Hello World</h1> <a href="/dice/">teningar</a> <a href="/arnor/">arnor</a>'
-@app.route('/arnor/')
+	return '<h1>Hello World</h1> <a href="/dice/">teningar</a> <a href="/hrafn/">hrafn</a>'
+@app.route('/hrafn/')
 def hrafn():
 	return '<h3>halló</h3>'
 @app.route('/dice/')
